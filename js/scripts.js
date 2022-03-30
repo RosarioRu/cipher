@@ -11,3 +11,11 @@ function firstLast(frase) {
 }
 
 alert(firstLast(sentence));
+
+function reverse() {
+  alert(firstLast(sentence)+"test");
+}
+
+reverse();
+
+  
