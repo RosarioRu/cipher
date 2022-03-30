@@ -14,9 +14,9 @@ alert(firstLast(sentence));
 
 function reverse() {
   let array=(firstLast(sentence)).split("");
-  alert((array.reverse()).join(""));
+  return((array.reverse()).join(""));
 }
 
-reverse();
+alert(reverse());
 
   
