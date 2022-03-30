@@ -24,5 +24,13 @@ function reverse() {
 alert(reverse());
 
 
+function fourthFunction() {
+  let toArray=sentence.split(" ");
+  alert(toArray);
+}
+
+fourthFunction();
+  
+
 
   
