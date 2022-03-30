@@ -5,7 +5,9 @@
 // alert(sentence);
 
 function firstLast(frase) {
-  return(frase.charAt(0));
-  // return(frase.charAt(str.length - 1));
+  let first = (frase.charAt(0));
+  let last = (frase.charAt(frase.length - 1));
+  return first+last;
 }
 
+alert(firstLast("my cat is sad"));
