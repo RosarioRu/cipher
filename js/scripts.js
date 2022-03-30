@@ -1,0 +1,2 @@
+
+prompt("Enter a sentence");
