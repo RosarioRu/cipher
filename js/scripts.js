@@ -26,7 +26,8 @@ alert(reverse());
 
 function fourthFunction() {
   let howLong=(sentence.length);
-  alert((sentence).charAt((Math.floor((howLong/2)))));
+  let charAtHalfway=((sentence).charAt((Math.floor((howLong/2)))));
+  alert(charAtHalfway+sentence);
 }
 
 fourthFunction();
