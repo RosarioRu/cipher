@@ -1,2 +1,5 @@
 
-prompt("Enter a sentence");
+
+let sentence = prompt("Enter a Sentence");
+
+alert(sentence);
