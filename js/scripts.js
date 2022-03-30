@@ -1,8 +1,8 @@
 
 
-// let sentence = prompt("Enter a Sentence");
+let sentence = prompt("Enter a Sentence");
 
-// alert(sentence);
+alert(sentence);
 
 function firstLast(frase) {
   let first = (frase.charAt(0)).toUpperCase();
@@ -10,4 +10,4 @@ function firstLast(frase) {
   return first+last;
 }
 
-alert(firstLast("my cat is sad"));
+alert(firstLast(sentence));
