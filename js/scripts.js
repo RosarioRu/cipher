@@ -25,8 +25,8 @@ alert(reverse());
 
 
 function fourthFunction() {
-  let toArray=sentence.split(" ");
-  alert(toArray);
+  let howLong=(sentence.length);
+  alert(howLong);
 }
 
 fourthFunction();
