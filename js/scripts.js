@@ -13,7 +13,8 @@ function firstLast(frase) {
 alert(firstLast(sentence));
 
 function reverse() {
-  alert(firstLast(sentence)+"test");
+  let array=(firstLast(sentence)).split("");
+  alert((array.reverse()).join(""));
 }
 
 reverse();
