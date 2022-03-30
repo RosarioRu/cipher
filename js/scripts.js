@@ -5,8 +5,8 @@
 // alert(sentence);
 
 function firstLast(frase) {
-  let first = (frase.charAt(0));
-  let last = (frase.charAt(frase.length - 1));
+  let first = (frase.charAt(0)).toUpperCase();
+  let last = (frase.charAt(frase.length - 1)).toUpperCase();
   return first+last;
 }
 
