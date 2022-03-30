@@ -26,7 +26,7 @@ alert(reverse());
 
 function fourthFunction() {
   let howLong=(sentence.length);
-  alert(Math.floor((howLong/2)));
+  alert((sentence).charAt((Math.floor((howLong/2)))));
 }
 
 fourthFunction();
